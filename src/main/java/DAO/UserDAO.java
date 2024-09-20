@@ -26,4 +26,17 @@ public class UserDAO {
 		}
 		return null;
 	}
+	public boolean addNewAccount(String username, String password) throws SQLException{
+		Connection conn = new DBMySQLUntil().getDatabaseConnection();
+		String sqlQuery = "INSERT INTO accounts(username, password) VALUES(?, ?)";
+		PreparedStatement pr = conn.prepareStatement(sqlQuery);
+		pr.setString(1, username);
+		pr.setString(2, password);
+		int rowsInserted = pr.executeUpdate();
+		if (rowsInserted > 0) {
+			return true;
+		}
+		return false;
+		
+	}
 }
