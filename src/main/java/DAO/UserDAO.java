@@ -37,6 +37,21 @@ public class UserDAO {
 			return true;
 		}
 		return false;
-		
+	}
+	public boolean checkUsernameExist(String username) throws SQLException {
+		Connection conn = new DBMySQLUntil().getDatabaseConnection();
+		String sqlQuery = "SELECT * FROM accounts WHERE username=?";
+		PreparedStatement pr = conn.prepareStatement(sqlQuery);
+		pr.setString(1, username);
+		ResultSet rs = pr.executeQuery();
+		return rs.next();
+	}
+	public boolean updateAccount(String username, String password) throws SQLException{
+		Connection conn = new DBMySQLUntil().getDatabaseConnection();
+		String sqlQuery = "UPDATE accounts SET password=? WHERE username=?";
+		PreparedStatement pr = conn.prepareStatement(sqlQuery);
+		pr.setString(1, password);
+		pr.setString(2, username);
+		return pr.executeUpdate() > 0;
 	}
 }

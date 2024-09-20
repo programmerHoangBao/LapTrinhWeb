@@ -17,7 +17,7 @@
 		<button type="button" onclick="window.location.href='sign_up.jsp'">Sign
 			up</button>
 	</form>
-	<a href="#">Forgot Password!</a>
+	<a href="forgot_password.jsp">Forgot Password!</a>
 	<p style="color: red">${errorMessage}</p>
 </body>
 </html>
