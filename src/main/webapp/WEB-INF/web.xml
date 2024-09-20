@@ -31,4 +31,12 @@
 		<servlet-name>ForgotPasswordServlet</servlet-name>
 		<url-pattern>/forgotpassword</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>Controller.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
 </web-app>
