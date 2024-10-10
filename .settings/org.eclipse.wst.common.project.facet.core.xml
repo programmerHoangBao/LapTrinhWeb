@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faceted-project>
+  <fixed facet="wst.jsdt.web"/>
+<<<<<<< HEAD
+  <installed facet="java" version="1.8"/>
+  <installed facet="jst.web" version="2.5"/>
+  <installed facet="wst.jsdt.web" version="1.0"/>
+=======
+  <installed facet="jst.web" version="2.5"/>
+  <installed facet="wst.jsdt.web" version="1.0"/>
+  <installed facet="java" version="22"/>
+>>>>>>> 20d6bf9 (01 JSP_CRUD Entity Video)
+</faceted-project>

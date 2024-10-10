@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
+    <wb-module deploy-name="DemoLoginSignUp-1.1.0">
+=======
+    <wb-module deploy-name="laptrinhweb_JSP_CRUD-1.0.0">
+>>>>>>> 20d6bf9 (01 JSP_CRUD Entity Video)
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+<<<<<<< HEAD
+        <property name="context-root" value="DemoLoginSignUp"/>
+        <property name="java-output-path" value="/DemoLoginSignUp/target/classes"/>
+=======
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <property name="context-root" value="laptrinhweb_JSP_CRUD"/>
+        <property name="java-output-path" value="/laptrinhweb_JSP_CRUD/target/classes"/>
+>>>>>>> 20d6bf9 (01 JSP_CRUD Entity Video)
+    </wb-module>
+</project-modules>
